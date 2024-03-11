@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Calculator</title>
+    <script src="https://kit.fontawesome.com/b3f38c3fea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/day.css">
+</head>
+
+<body>
+    <div class="main">
+        <h2>Days Calculator <i class="fa-solid fa-calendar-days"></i></h2>
+        <div class="date">
+            <div class="start">
+                <label for="startDate">Start Date:</label>
+                <input type="date" id="startDate">
+            </div>
+
+            <div class="end">
+                <label for="endDate">End Date:</label>
+                <input type="date" id="endDate">
+            </div>
+            <div class="result-btn">
+                <button onclick="calculateDifference()">Calculate</button>
+            </div>
+        </div>
+        <div id="result"></div>
+
+
+    </div>
+</body>
+<script src="/day.js"></script>
+
+</html>

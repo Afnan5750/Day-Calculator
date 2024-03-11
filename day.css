@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:wght@300;700&family=Playfair+Display:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: #232424;
+    color: white;
+
+}
+
+.main {
+    justify-content: center;
+    border: 1px solid #019f55;
+    display: inline-block;
+    height: 20rem;
+    width: 25rem;
+    margin: 9rem 7rem;
+    border-radius: 3px;
+
+}
+
+.main h2 {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 500;
+    font-weight: bolder;
+    border-bottom: 5px solid #019f55;
+}
+
+input {
+    padding: 4px;
+    cursor: pointer;
+}
+
+.date {
+    padding: 2rem 2rem;
+    margin-left: 3rem;
+    padding-bottom: 0;
+}
+
+.start {
+    padding: 1rem;
+}
+
+.end {
+    padding: 1rem;
+}
+
+.result-btn {
+    padding: 1rem;
+    padding-bottom: 0;
+    margin-left: 3rem;
+}
+
+.result-btn button {
+    padding: 5px;
+    cursor: pointer;
+    background-color: #019f55;
+    border: none;
+    outline: none;
+}
+
+#result {
+    text-align: center;
+}
